@@ -136,6 +136,7 @@ class ChatClient:
     
     def _process_received_message(self, message_json: str):
         """Process a received message from server"""
+        print(111111111111)
         try:
             message_data = json.loads(message_json)
             message_type = message_data.get('type')

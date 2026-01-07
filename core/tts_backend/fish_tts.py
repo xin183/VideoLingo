@@ -313,7 +313,7 @@ def fish_tts_for_videolingo(text: str, save_as: str, number: int, task_df) -> bo
 
             # Create voice model
             model_id = create_voice_model(
-                audio_path=ref_audio,
+            audio_path=ref_audio,
                 title=f"VideoLingo_Clone_{model_name}",
                 description=f"Voice clone for video: {video_file}",
             )
